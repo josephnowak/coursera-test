@@ -1,0 +1,280 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Assignment Solution for Module 2</title>
+	<style>
+		*{
+			box-sizing:border-box;
+		}
+
+		h1 {
+			text-align: center;
+			font-size:60px;
+			background-image:url(http://blog.feebbo.com/wp-content/uploads/2015/10/M%C3%BAsica.jpg);
+			height:300px;
+			background-width:100%;
+			
+			
+
+		}
+		div > p {
+			clear:right;
+			margin-right: 10px;
+		}
+		
+		/* Aqui van los casos para cada pantalla*/
+		@media (min-width: 992px){
+			#parrafo_1{
+				margin-top: 10px;
+				margin-left: 10px;
+				margin-right: 10px;
+				margin-bottom : 10px;
+				padding: 10px;
+				width: 31%;
+				height:200px;
+				border: 1px solid black;
+				float:left;
+				background-color: #E5ECEA;
+				font-size: 18px;
+			}
+			#parrafo_3{
+				margin-top: 10px;
+				margin-left: 10px;
+				margin-right: 10px;
+				margin-bottom : 10px;
+				padding: 10px;
+				width: 31%;
+				height:200px;
+				border: 1px solid black;
+				float:left;
+				background-color: #E5ECEA;
+				font-size: 18px;
+			}
+		
+			#titulo_1{
+
+				font-size: 20px;
+				height: 30px;
+				width: 140px;
+				float:right;
+				/*border:1px solid black;*/
+				background-color: #E5660E;
+				margin-right:10px;
+				padding:2px;
+				text-align:center;
+				color:white;
+				
+			}
+			#titulo_2{
+				float:right;
+				font-size:20px;
+				height:30px;
+				width:215px;
+				/*border:1px solid black;*/
+				background-color: #EF483A;
+				margin-right: 10px;
+				color:white;
+				text-align:center;
+				padding:2px;
+
+			}
+			#titulo_3{
+				float:right;
+				font-size: 20px;
+				height:30px;
+				width:110px;
+				background-color: #1EC62B;
+				text-align:center;
+				color:white;
+				padding:2px;
+				margin-right: 10px;
+
+			}
+
+		}
+		@media(min-width:768px) and (max-width:991px){
+			#parrafo_1{
+				margin-top: 10px;
+				margin-left: 10px;
+				margin-right: 10px;
+				margin-bottom : 10px;
+				padding: 10px;
+				width: 46.70%;
+				height:200px;
+				border: 1px solid black;
+				float:left;
+				background-color: #E5ECEA;
+				font-size: 16px;
+			}
+		
+			#parrafo_3{
+				margin-top: 10px;
+				margin-left: 10px;
+				margin-right: 10px;
+				margin-bottom : 10px;
+				padding: 10px;
+				width: 95.79%;
+				height:200px;
+				border: 1px solid black;
+				float:left;
+				background-color: #E5ECEA;
+				font-size: 18px;
+			}
+			
+			#titulo_1{
+				font-size: 19px;
+				height: 30px;
+				width: 115px;
+				float:right;
+				/*border:1px solid black;*/
+				background-color: #E5660E;
+				margin-right:10px;
+				padding:2px;
+				text-align:center;
+				color:white;
+
+				
+				
+			}
+			#titulo_2{
+				float:right;
+				font-size:19px;
+				height:30px;
+				width:195px;
+				/*border:1px solid black;*/
+				background-color: #EF483A;
+				margin-right: 10px;
+				color:white;
+				text-align:center;
+				padding:2px;
+
+			}
+			#titulo_3{
+				float:right;
+				font-size: 20px;
+				height:30px;
+				width:110px;
+				background-color: #1EC62B;
+				text-align:center;
+				color:white;
+				padding:2px;
+				margin-right: 10px;
+
+			}
+		}
+		@media(max-width: 767px){
+
+			#parrafo_1{
+				margin-top: 10px;
+				margin-left: 10px;
+				margin-right: 10px;
+				margin-bottom : 10px;
+				padding: 10px;
+				width: 99%;
+				height:200px;
+				border: 1px solid black;
+				float:left;
+				background-color: #E5ECEA;
+				font-size: 16px;
+			}
+		
+			#parrafo_3{
+				margin-top: 10px;
+				margin-left: 10px;
+				margin-right: 10px;
+				margin-bottom : 10px;
+				padding: 10px;
+				width: 99%;
+				height:200px;
+				border: 1px solid black;
+				float:left;
+				background-color: #E5ECEA;
+				font-size: 18px;
+			}
+			
+			#titulo_1{
+				font-size: 19px;
+				height: 30px;
+				width: 115px;
+				float:right;
+				/*border:1px solid black;*/
+				background-color: #E5660E;
+				margin-right:10px;
+				padding:2px;
+				text-align:center;
+				color:white;
+
+				
+				
+			}
+			#titulo_2{
+				float:right;
+				font-size:19px;
+				height:30px;
+				width:195px;
+				/*border:1px solid black;*/
+				background-color: #EF483A;
+				margin-right: 10px;
+				color:white;
+				text-align:center;
+				padding:2px;
+
+			}
+			#titulo_3{
+				float:right;
+				font-size: 20px;
+				height:30px;
+				width:110px;
+				background-color: #1EC62B;
+				text-align:center;
+				color:white;
+				padding:2px;
+				margin-right: 10px;
+			}
+
+
+
+
+		}
+	</style>
+</head>
+<body>
+	<h1>Music</h1>
+	
+	<div id = "parrafo_1">
+		<h2 id = "titulo_1">Johnny Cash</h2> 
+
+		<p>
+			Hurt: One of my favorites song of him is this song, It's a deep song 
+		</p>
+
+		<a href = "https://www.youtube.com/				watch?v=vt1Pwfnh5pc"
+			target = "_blank">click here to see a video
+		</a>
+	</div>
+	<div id = "parrafo_1">
+		<h2 id = "titulo_2">Of Monsters And Men </h2>
+
+		<p>
+			Dirt Paws: The sound of this song is magic, and the lyric is something special.
+		</p>
+
+		<a href = "https://www.youtube.com/watch?v=mCHUw7ACS8o" 
+		target = "_blank">click here to see a video
+		</a>
+
+	</div>
+	<div id = "parrafo_3">
+		<h2 id = "titulo_3"> Cold Play </h2>
+		<p>
+			Viva la vida: Well this song is very famous so I think it doesn't need a description.
+		</p>
+		<a href ="https://www.youtube.com/watch?v=dvgZkm1xWPE" 
+		target = "_blank">click here to see a video
+		</a> 
+	</div>
+	
+
+</body>
+</html>
